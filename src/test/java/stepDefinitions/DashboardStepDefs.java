@@ -1,4 +1,4 @@
-package stepDefenitions;
+package stepDefinitions;
 
 public class DashboardStepDefs {
 }
