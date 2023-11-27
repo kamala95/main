@@ -4,15 +4,17 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @CucumberOptions(
-     //   tags ="@",
+        tags ="@signup",
         features = "src/test/resources/features",
-        glue = "stepDefinitions",
+
+        glue = "stepDefenitions",
+//
         publish = true,
         plugin = {
                 "pretty",
                 "html:target/cucumber-report/report.html"},
         stepNotifications = true
-       //, dryRun = true
+//       , dryRun = true
 )
 
 @RunWith(Cucumber.class)

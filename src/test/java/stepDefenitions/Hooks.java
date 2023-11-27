@@ -20,6 +20,7 @@ public class Hooks {
     }
 
 
+    @After
     public  void tearDownScenario(Scenario scenario){
 
         if(scenario.isFailed()){
