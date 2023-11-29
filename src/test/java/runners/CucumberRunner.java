@@ -4,7 +4,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @CucumberOptions(
-     //   tags ="@",
+        //tags ="",
         features = "src/test/resources/features",
         glue = "stepDefinitions",
         publish = true,
@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "html:target/cucumber-report/report.html"},
         stepNotifications = true
-       //, dryRun = true
+      // , dryRun = true
 )
 
 @RunWith(Cucumber.class)
