@@ -12,6 +12,7 @@ public class DashboardStepDefs {
     private final SignIn1Page signIn1Page = new SignIn1Page();
     private final DashboardPage dashboardPage = new DashboardPage();
     private final ApplicationListPage applicationListPage = new ApplicationListPage();
+
     @Given("the user has successfully logged in with valid credentials")
     public void the_user_has_successfully_logged_in_with_valid_credentials() {
         signIn1Page.signInWithValidData();
