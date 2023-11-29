@@ -12,7 +12,6 @@ Feature: Dashboard functionalities
       |Mortgage Application|
       |Application List    |
 
-
   Scenario Outline:Clicking on Links and Redirecting to Pages
     When the user click "<link>"
     Then the user's current page should be the "<url>" page
